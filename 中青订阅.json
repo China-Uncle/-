@@ -68,11 +68,5 @@
       "target": "https://raw.githubusercontent.com/shaolin-kongfu/js_scripts/main/zq/zqssz.js",
       "enable": true
     }
-    ,
-    {
-      "match": "https://kandian.wkandian.com/V17/Ximalaya/setCompleteSec.json",
-      "target": "https://raw.githubusercontent.com/liuqi6968/-/main/zq_music.js",
-      "enable": true
-    }
   ]
 }
