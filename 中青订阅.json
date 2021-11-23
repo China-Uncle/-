@@ -65,7 +65,7 @@
     ,
     {
       "match": "https://kandian.wkandian.com/V17/Ximalaya/setCompleteSec.json",
-      "target": "https://ghproxy.com/https://raw.githubusercontent.com/liuqi6968/-/main/zq_music.js",
+      "target": "https://ghproxy.com/https://raw.githubusercontent.com/China-Uncle/-/main/zq_music.js",
       "enable": true
     }
   ]

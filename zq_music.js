@@ -54,7 +54,7 @@ if (typeof $request !== "undefined") {
             'Content-Length': zqboxbody1.length.toString(),
             'Host': 'kandian.wkandian.com',
         }
-        for (let c = 0; c < 100; c++) {
+        for (let c = 0; c < 1; c++) {
                     $.index = c + 1
         await zq_tg(zqboxheader)
        // console.log(typeof (zqboxbody1));
@@ -99,8 +99,9 @@ function zq_tg(zqboxheader,timeout=0) {
         $.post(url, async (err, resp, data) => {
             try {
                 const result = JSON.parse(data)
-                if(result.success !== true ){
-                    console.log('\n听歌：'+result.items +'秒')
+                if(result.items==0 ){
+                    console.log('\n听歌时常异常：') 
+                    console.log(result)
                 }else{
                     console.log('\n听歌：'+result.items +'秒')
                      
