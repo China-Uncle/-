@@ -50,12 +50,6 @@
       "match": "https://kandian.wkandian.com/v5/wechat/withdraw2.json",
       "target": "https://ghproxy.com/https://raw.githubusercontent.com/shaolin-kongfu/js_scripts/main/zq/zq_withdraw.js",
       "enable": true
-    } 
-    ,
-     {
-      "match": "https://kandian.wkandian.com/v17/Ad/getReward.json",
-      "target": "https://ghproxy.com/https://gitee.com/Jxell/js_scripts/raw/main/zq/zq_5_60.js",
-      "enable": true
     },
     {
       "match": "https://kandian.wkandian.com/v5/task/browse_start.json",
