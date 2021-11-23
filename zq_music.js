@@ -54,7 +54,7 @@ if (typeof $request !== "undefined") {
             'Content-Length': zqboxbody1.length.toString(),
             'Host': 'kandian.wkandian.com',
         }
-        for (let c = 0; c < 1; c++) {
+        for (let c = 0; c < 100; c++) {
                     $.index = c + 1
         await zq_tg(zqboxheader)
        // console.log(typeof (zqboxbody1));
